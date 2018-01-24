@@ -1,0 +1,65 @@
+.top-bar {
+    height: 5px;
+    background-color: #336799;
+    margin-bottom: 1px;
+}
+
+#logo {
+    height: 2em;
+}
+
+#contact {
+  display: none;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+#contact .col-md-4 {
+  text-align: center;
+  color: #cc0001;
+}
+#envelope-icon {
+    width: 30px;
+}
+#main-jumbotron {
+  text-align: center;
+}
+
+#main-jumbotron h1 {
+  color: #336799;
+  margin-bottom: 20px;
+}
+
+footer {
+  margin-top: 80px;
+}
+
+#consulting, #aplications, #training, #market {
+ margin-top: 50px;
+}
+
+#home {
+  margin-top: 50px;
+}
+
+.tab-pane .list-group-item:first-of-type {
+  background-color: #336799;
+  color: ghostwhite;
+  
+}
+
+/*
+// Extra small devices (portrait phones, less than 576px)
+// No media query since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {  }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {  }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {  }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {  }
+*/

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+  
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+    
+  <body>
+    <div class="top-bar"></div>    
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="index.html"><img id="logo" src="images/logo_bar.png" alt="Statinfo logo"/></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          
+        <form class="form-inline my-2 my-lg-0 ml-auto">
+          <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+          <button class="btn btn-sm btn-outline-primary my-2 my-sm-0" type="submit">Szukaj</button>
+        </form>
+      
+        <ul class="navbar-nav ml-auto">
+          
+          <li class="nav-item active">
+            <a class="nav-link" href="login.html">Zaloguj</a>
+          </li>  
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarLang" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Język
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarLang">
+              <a class="dropdown-item" href="#">PL<span class="sr-only">(current)</span></a>
+              <a class="dropdown-item" href="#">ENG</a>
+              <a class="dropdown-item" href="#">FR</a>
+            </div>
+          </li>
+        </ul>             
+      </div>
+    </nav>  
+    <div class="container col-md-3">
+    <form class="form-signin">
+      <h3 class="form-signin-heading">Logowanie</h3>
+        <label for="inputLogin" class="sr-only">Login</label>
+        <input type="email" id="inputLogin" class="form-control" placeholder="Login" required autofocus>
+        <label for="inputPassword" class="sr-only">Hasło</label>
+        <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" value="remember-me"> Zapamiętaj
+          </label>
+        </div>
+        <button class="btn btn-lg btn-primary btn-block" type="submit">Zaloguj</button>
+    </form>
+    </div>
+    <footer class="footer">
+      <nav class="navbar navbar-light bg-light fixed-bottom">
+        <span class="navbar-text small">
+          &copy STATINFO 2017
+        </span>
+        <ul class="nav nav-pills">
+          <li class="nav-item">
+            <a class="nav-link" href="#">LinkedIn</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Facebook</a>
+          </li>
+        </ul>
+      </nav>
+    </footer>
+      
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
